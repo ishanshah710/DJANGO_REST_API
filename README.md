@@ -11,6 +11,8 @@ It uses rest_api.py(in scripts folder) to test diffrent methods for CRUD(these t
 
 We don't need to use other diffrent pages for update and delete                                                                           ( e.g. localhost:8000/api/status/update/<int:pk>/ & localhost:8000/api/status/delete/<int:pk>/)  but we can do whole CRUD on single endpoint as mentioned above. 
 
+I mainly handled views in status/api/views.py  
+
 I also used one file shell_examples.py(in restapi/status/api ) which I used to test diffrent ways of SERIALIZING data(i.e for converting data to JSON, validating it and making it more consistent) for single instance and also for whole queryset.
 
 So I used both files rest_api.py and shell_examples.py for testing purpose which I handled in command line only.
