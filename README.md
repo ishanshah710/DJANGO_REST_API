@@ -7,7 +7,10 @@ It is a Django REST API (uses Django REST framework)  which handles all  CRUDL o
 project :- restapi
 application :- status
 
-It uses rest_api.py(in scripts folder) to test diffrent methods for CRUD(these testing methods are in rest_api.py). The speciality of this is that it uses only one endpoint(localhost:8000/api/status/) which handles whole CRUD for us.
+It uses rest_api.py(in scripts folder) to test diffrent methods for CRUD(these testing methods are in rest_api.py). 
+
+
+The speciality of this is that it uses only one endpoint(localhost:8000/api/status/) which handles whole CRUD for us.
 
 We don't need to use other diffrent pages for update and delete                                                                           ( e.g. localhost:8000/api/status/update/<int:pk>/ & localhost:8000/api/status/delete/<int:pk>/)  but we can do whole CRUD on single endpoint as mentioned above. 
 
