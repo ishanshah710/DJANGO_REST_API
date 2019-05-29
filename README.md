@@ -24,4 +24,4 @@ I used two ways to handle CRUD.
 1. By Generic views of rest_frameworf
 2. By Mixins of rest_framework 
 
-I inherited both in corresponding API classes to use them.
+I inherited both in corresponding API classes to use them. 
